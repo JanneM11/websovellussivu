@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: gold;
+    margin-bottom: 100px;
+}
+
+div#container {
+    display: flex;
+    flex-direction: column;
+}
+
+div#containerprice {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    width: 100%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+a:hover {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+nav {
+    display: inherit;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gold
+}
+
+nav li {
+    display: inline-block;
+    padding:  0.5em 0 0.5em 0;
+    margin-right: 0.5em;
+}
+
+h2 {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+div#text {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+div#info {
+    display: inherit;
+}
+
+div#info div {
+    display: inherit;
+    flex: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid gold;
+    margin: 1em;
+}
+
+div h3 {
+    margin: 0.5em;
+}
+div p {
+    margin: 0.5em;
+}
+
+footer {
+    background-color: #222;
+    width: 100%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+
+div#prices {
+    display: inherit;
+    background-color: #222;
+    border: 2px solid gold;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 20px 5px 20px;
+    margin-top: 1em;
+
+}
+
+div#prices div {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
