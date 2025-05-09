@@ -11,6 +11,8 @@ const getValues = () => {
         console.log(json)
         btc_span.innerHTML = json[0].price_usd
         eth_span.innerHTML = json[1].price_usd
+    }).catch(error =>{
+        alert(error)
     })
 }
  getValues()
